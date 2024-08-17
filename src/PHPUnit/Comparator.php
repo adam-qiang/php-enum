@@ -1,8 +1,8 @@
 <?php
 
-namespace MyCLabs\Enum\PHPUnit;
+namespace AdamQiang\Enum\PHPUnit;
 
-use MyCLabs\Enum\Enum;
+use AdamQiang\Enum\Enum;
 use SebastianBergmann\Comparator\ComparisonFailure;
 
 /**
@@ -10,7 +10,7 @@ use SebastianBergmann\Comparator\ComparisonFailure;
  *
  * Add this to your PHPUnit bootstrap PHP file:
  *
- * \SebastianBergmann\Comparator\Factory::getInstance()->register(new \MyCLabs\Enum\PHPUnit\Comparator());
+ * \SebastianBergmann\Comparator\Factory::getInstance()->register(new \AdamQiang\Enum\PHPUnit\Comparator());
  */
 final class Comparator extends \SebastianBergmann\Comparator\Comparator
 {

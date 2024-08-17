@@ -1,10 +1,10 @@
 <?php
 /**
- * @link    http://github.com/myclabs/php-enum
+ * @link    http://github.com/adam-qiang/php-enum
  * @license http://www.opensource.org/licenses/mit-license.php MIT (see the LICENSE file)
  */
 
-namespace MyCLabs\Enum;
+namespace AdamQiang\Enum;
 
 /**
  * Base Enum class
@@ -138,7 +138,7 @@ abstract class Enum implements \JsonSerializable, \Stringable
      * Determines if Enum should be considered equal with the variable passed as a parameter.
      * Returns false if an argument is an object of different class or not an object.
      *
-     * This method is final, for more information read https://github.com/myclabs/php-enum/issues/4
+     * This method is final, for more information read https://github.com/adam-qiang/php-enum/issues/4
      *
      * @psalm-pure
      * @psalm-param mixed $variable

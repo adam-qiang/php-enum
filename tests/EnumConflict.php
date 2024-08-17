@@ -1,11 +1,11 @@
 <?php
 /**
- * @link    http://github.com/myclabs/php-enum
+ * @link    http://github.com/adam-qiang/php-enum
  * @license http://www.opensource.org/licenses/mit-license.php MIT (see the LICENSE file)
  */
-namespace MyCLabs\Tests\Enum;
+namespace AdamQiang\Tests\Enum;
 
-use MyCLabs\Enum\Enum;
+use AdamQiang\Enum\Enum;
 
 /**
  * Class EnumConflict

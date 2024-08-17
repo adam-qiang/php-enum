@@ -1,19 +1,19 @@
 {
-    "name": "myclabs/php-enum",
+    "name": "adam-qiang/php-enum",
     "type": "library",
     "description": "PHP Enum implementation",
-    "keywords": ["enum"],
-    "homepage": "https://github.com/myclabs/php-enum",
+    "keywords": ["php","enum"],
+    "homepage": "https://github.com/adam-qiang/php-enum",
     "license": "MIT",
     "authors": [
         {
             "name": "PHP Enum contributors",
-            "homepage": "https://github.com/myclabs/php-enum/graphs/contributors"
+            "homepage": "https://github.com/adam-qiang/php-enum/graphs/contributors"
         }
     ],
     "autoload": {
         "psr-4": {
-            "MyCLabs\\Enum\\": "src/"
+            "AdamQiang\\Enum\\": "src/"
         },
         "classmap": [
             "stubs/Stringable.php"
@@ -21,7 +21,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "MyCLabs\\Tests\\Enum\\": "tests/"
+            "AdamQiang\\Tests\\Enum\\": "tests/"
         }
     },
     "require": {
